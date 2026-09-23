@@ -9,7 +9,7 @@ cask "reelconverter" do
   desc "Native batch video converter using FFmpeg"
   homepage "https://github.com/aleradev12/reelconverter"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
   depends_on arch: :arm64
   depends_on formula: "ffmpeg"
 
